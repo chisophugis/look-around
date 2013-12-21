@@ -35,6 +35,10 @@ function withSelectionPreserved(textInput, f) {
 
 
 var doAction = (function () {
+    // NEXT: Besides playing around more with it, add a "chat log" UI and
+    // have one of the actions be "press enter" which will send the current
+    // text input value to the log and clear the input.
+
     function editTextInputValue(f) {
         // Helper to transform an operation `f` on strings to an operation
         // on a text input's value. Also provides the cursor location to
